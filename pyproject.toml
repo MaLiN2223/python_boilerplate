@@ -1,0 +1,27 @@
+[tool.black]
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
+line-length = 120
+target-version = ['py37']
+
+[tool.isort]
+multi_line_output = 3
+profile = "black"
+
+[flake8]
+exclude = '''
+    .git
+    __pycache__
+    '''

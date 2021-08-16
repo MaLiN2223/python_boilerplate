@@ -1,0 +1,5 @@
+# Code style
+flake8
+pre-commit
+isort
+black
