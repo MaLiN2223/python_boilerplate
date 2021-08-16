@@ -1,2 +1,3 @@
 # Typical
 numpy
+tqdm
